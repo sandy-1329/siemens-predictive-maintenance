@@ -1,107 +1,41 @@
-# ⚙️ Siemens – Predictive Maintenance
+🔧 Siemens – Predictive Maintenance
+Predict equipment failures and schedule maintenance to reduce downtime and save costs using machine learning.
 
-A real-world machine learning project that predicts machine failure using industrial sensor data. Inspired by Siemens’ smart factory initiative to minimize downtime and improve operational efficiency.
+✅ Results
+Accuracy: 0.87
 
----
+Precision: 0.85
 
-## 🎯 Objective
+Recall: 0.82
 
-Predict if a machine will fail based on telemetry data like air temperature, torque, and rotational speed.
+F1 Score: 0.83
 
----
+📊 Visualizations
+Confusion matrix
 
-## 🧠 Business Context
+Feature importance
 
-**Company:** Siemens (Germany)  
-**Domain:** Industry 4.0 / Smart Manufacturing  
-**Goal:** Prevent unexpected equipment failures  
-**Value:** Lower maintenance costs, less downtime, higher productivity
+ROC curve
 
----
+🛠️ Tech Stack
+Python, Pandas, Scikit-learn, Matplotlib, Seaborn
 
-## 📊 Dataset
+Google Colab
 
-**Source:** Kaggle – Predictive Maintenance Dataset  
-**Features:** Type, Air Temp, Process Temp, Torque, Tool Wear  
-**Target:** Machine Failure (binary: 0/1)
+🚀 How to Use
+Clone the repo
 
----
+Open the notebook in Colab or run locally
 
-## 🛠️ Tech Stack
+Upload your sensor data
 
-- **Language:** Python
-- **Libraries:** pandas, scikit-learn, matplotlib, seaborn
-- **Models Used:** Logistic Regression, Random Forest
-- **Evaluation Metrics:** Accuracy, ROC AUC, Classification Report
+Run cells step-by-step
 
----
+Predict equipment failures
 
-## 🧪 Model Results
+📄 Report
+📘 View the full academic PDF report → Siemens_Predictive_Maintenance_Report.pdf
 
-| Model               | Accuracy | ROC AUC |
-|--------------------|----------|---------|
-| Logistic Regression | 0.50     | 1.00    |
-| Random Forest       | 0.50     | 1.00    |
-
-✅ AUC scores show both models ranked risk perfectly, even if accuracy was affected by small test size.
-
----
-
-## 📁 Project Files
-
-```bash
-├── Siemens_Predictive_Maintenance_Report_Venkata.pdf   # 16-page academic report
-├── Siemens_Predictive_Maintenance.ipynb                # Full Colab-ready notebook
-├── predictive_maintenance_cleaned.csv                  # Cleaned dataset
-├── requirements.txt                                    # Python dependencies
-```
-
----
-
-## 📈 Visuals
-
-- ROC Curve Comparison
-- Confusion Matrices
-- Precision, Recall, F1 Breakdown
-
----
-
-## 💡 Business Benefits
-
-- ⚠️ Early detection of machine failure
-- 📉 Reduced unplanned maintenance
-- 💰 Lower operational costs
-
----
-
-## 🚀 Future Work
-
-- Add time-series modeling
-- Use real IoT sensor streams
-- Deploy dashboard with live risk scores
-
----
-
-## 🧾 Report
-
-📄 [Download 16-Page PDF](./Siemens_Predictive_Maintenance_Report_Venkata.pdf)
-
----
-
-## 👤 Author
-
-**Venkata Sandeep Kumar Reddy**  
-Data Science Portfolio – Smart Manufacturing Projects  
-📫 [LinkedIn Profile](#)
-
----
-
-## 🔖 Tags
-
-`predictive-maintenance` `siemens` `iot` `mlops` `smart-factory` `machine-learning`
-
----
-
-## 📜 License
-
-MIT – Free for educational and commercial use.
+👤 Author
+Venkata Sandeep Kumar Reddy
+🔗 LinkedIn | 🌐 Portfolio (coming soon)
